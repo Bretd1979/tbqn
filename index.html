@@ -1,0 +1,1269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Bible Quiz Network</title>
+  
+  <style id='classic-theme-styles-inline-css'>
+    /*! This file is auto-generated */
+    .wp-block-button__link {
+      color: #fff;
+      background-color: #32373c;
+      border-radius: 9999px;
+      box-shadow: none;
+      text-decoration: none;
+      padding: calc(.667em + 2px) calc(1.333em + 2px);
+      font-size: 1.125em
+    }
+
+    .wp-block-file__button {
+      background: #32373c;
+      color: #fff;
+      text-decoration: none
+    }
+  </style>
+
+  <style id='global-styles-inline-css'>
+    :root {
+      --wp--preset--aspect-ratio--square: 1;
+      --wp--preset--aspect-ratio--4-3: 4/3;
+      --wp--preset--aspect-ratio--3-4: 3/4;
+      --wp--preset--aspect-ratio--3-2: 3/2;
+      --wp--preset--aspect-ratio--2-3: 2/3;
+      --wp--preset--aspect-ratio--16-9: 16/9;
+      --wp--preset--aspect-ratio--9-16: 9/16;
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    }
+
+    :where(.is-layout-flex) {
+      gap: 0.5em;
+    }
+
+    :where(.is-layout-grid) {
+      gap: 0.5em;
+    }
+
+    body .is-layout-flex {
+      display: flex;
+    }
+
+    .is-layout-flex {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .is-layout-flex> :is(*, div) {
+      margin: 0;
+    }
+
+    body .is-layout-grid {
+      display: grid;
+    }
+
+    .is-layout-grid> :is(*, div) {
+      margin: 0;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+
+    :root :where(.wp-block-pullquote) {
+      font-size: 1.5em;
+      line-height: 1.6;
+    }
+  </style>
+
+  <link rel='stylesheet' id='hello-elementor-css'
+    href='style.min.css' media='all' />
+  <link rel='stylesheet' id='hello-elementor-theme-style-css'
+    href='theme.min.css' media='all' />
+  <link rel='stylesheet' id='elementor-frontend-css'
+    href='frontend-lite.min.css' media='all' />
+  <link rel='stylesheet' id='elementor-post-5-css'
+    href='post-5.css' media='all' />
+  <link rel='stylesheet' id='elementor-icons-css'
+    href='elementor-icons.min.css'
+    media='all' />
+  <link rel='stylesheet' id='swiper-css'
+    href='swiper.min.css' media='all' />
+  <link rel='stylesheet' id='elementor-pro-css'
+    href='frontend-lite.min.css' media='all' />
+  <link rel='stylesheet' id='elementor-global-css'
+    href='global.css' media='all' />
+  <link rel='stylesheet' id='elementor-post-7-css'
+    href='post-7.css' media='all' />
+  <link rel='stylesheet' id='elementor-post-121-css'
+    href='post-121.css' media='all' />
+  <link rel='stylesheet' id='elementor-post-128-css'
+    href='post-128.css' media='all' />
+  <link rel='stylesheet' id='elementor-icons-shared-0-css'
+    href='styles/fontawesome.min.css?ver=5.15.3'
+    media='all' />
+  <link rel='stylesheet' id='elementor-icons-fa-solid-css'
+    href='styles/solid.min.css?ver=5.15.3'
+    media='all' />
+  
+  <link rel='stylesheet' id='google-fonts-1-css'
+    href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.6.1'
+    media='all' />
+</head>
+
+
+<body
+  class="home page-template-default page page-id-7 elementor-default elementor-kit-5 elementor-page elementor-page-7">
+  <div data-elementor-type="header" data-elementor-id="121" class="elementor elementor-121 elementor-location-header"
+    data-elementor-post-type="elementor_library">
+    <div class="elementor-section-wrap">
+      <section
+        class="elementor-section elementor-top-section elementor-element elementor-element-a98d6a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+        data-id="a98d6a2" data-element_type="section"
+        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+
+        <div class="elementor-container elementor-column-gap-default">
+          <div
+            class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a6528db"
+            data-id="a6528db" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-0dd17b1 elementor-widget elementor-widget-heading"
+                data-id="0dd17b1" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <style>
+                    /*! elementor - v3.19.0 - 29-01-2024 */
+                    .elementor-heading-title {
+                      padding: 0;
+                      margin: 0;
+                      line-height: 1
+                    }
+
+                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                      color: inherit;
+                      font-size: inherit;
+                      line-height: inherit
+                    }
+
+                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                      font-size: 15px
+                    }
+
+                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                      font-size: 19px
+                    }
+
+                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                      font-size: 29px
+                    }
+
+                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                      font-size: 39px
+                    }
+
+                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                      font-size: 59px
+                    }
+                  </style>
+                  <h2 class="elementor-heading-title elementor-size-default">The Bible Quiz Network</h2>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <main id="content" class="site-main post-7 page type-page status-publish hentry">
+    <div class="page-content">
+      <div data-elementor-type="wp-page" data-elementor-id="7" class="elementor elementor-7"
+        data-elementor-post-type="page">
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-c0925df elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="c0925df" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f29402b"
+              data-id="f29402b" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-87c32ab elementor-widget elementor-widget-menu-anchor"
+                  data-id="87c32ab" data-element_type="widget" data-widget_type="menu-anchor.default">
+                  <div class="elementor-widget-container">
+                    <style>
+                      /*! elementor - v3.19.0 - 29-01-2024 */
+                      body.elementor-page .elementor-widget-menu-anchor {
+                        margin-bottom: 0
+                      }
+                    </style>
+                    <div id="leaugue" class="elementor-menu-anchor"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-c457c2f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="c457c2f" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-068ffe1"
+              data-id="068ffe1" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-3c09016 elementor-widget elementor-widget-image"
+                  data-id="3c09016" data-element_type="widget" data-widget_type="image.default">
+                  <div class="elementor-widget-container">
+                    <style>
+                      /*! elementor - v3.19.0 - 29-01-2024 */
+                      .elementor-widget-image {
+                        text-align: center
+                      }
+
+                      .elementor-widget-image a {
+                        display: inline-block
+                      }
+
+                      .elementor-widget-image a img[src$=".svg"] {
+                        width: 48px
+                      }
+
+                      .elementor-widget-image img {
+                        vertical-align: middle;
+                        display: inline-block
+                      }
+                    </style>
+                    <img fetchpriority="high" decoding="async" width="560" height="440" src="image1.png"
+                      class="attachment-large size-large wp-image-172" sizes="(max-width: 560px) 100vw, 560px" />
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-3d78064 elementor-widget elementor-widget-image"
+                  data-id="3d78064" data-element_type="widget" data-widget_type="image.default">
+                  <div class="elementor-widget-container">
+                    <img decoding="async" width="800" height="533" src="image2.jpg"
+                      class="attachment-large size-large wp-image-137" sizes="(max-width: 800px) 100vw, 800px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-537ef87"
+              data-id="537ef87" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-54e2db6 elementor-widget elementor-widget-heading"
+                  data-id="54e2db6" data-element_type="widget" data-widget_type="heading.default">
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">THE LEAGUE</h2>
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-927a8bf elementor-widget elementor-widget-text-editor"
+                  data-id="927a8bf" data-element_type="widget" data-widget_type="text-editor.default">
+                  <div class="elementor-widget-container">
+                    <style>
+                      /*! elementor - v3.19.0 - 29-01-2024 */
+                      .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                        background-color: #69727d;
+                        color: #fff
+                      }
+
+                      .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                        color: #69727d;
+                        border: 3px solid;
+                        background-color: transparent
+                      }
+
+                      .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                        margin-top: 8px
+                      }
+
+                      .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                        width: 1em;
+                        height: 1em
+                      }
+
+                      .elementor-widget-text-editor .elementor-drop-cap {
+                        float: left;
+                        text-align: center;
+                        line-height: 1;
+                        font-size: 50px
+                      }
+
+                      .elementor-widget-text-editor .elementor-drop-cap-letter {
+                        display: inline-block
+                      }
+                    </style>
+                    <p>The Bible Quiz Network is committed to welcoming quiz teams from any church, school or
+                      organizations in the northern Indiana and southern Michigan area.
+                      We are committed to unity of the family, and to this end, all age groups quiz on the same day and
+                      at the same venue.
+                      Quiz material is taken from the same Scripture passages (ESV) for all age groups to aid and
+                      encourage family Bible study.
+                      We quiz monthly October through March. Our January quiz is known as QuizFest and is a special
+                      event for teams and individual quizzers.
+                      Please come and join us!
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-cb1b66f elementor-align-left elementor-widget elementor-widget-button"
+                  data-id="cb1b66f" data-element_type="widget" data-widget_type="button.default">
+                  <div class="elementor-widget-container">
+                    <div class="elementor-button-wrapper">
+                      <a class="elementor-button elementor-button-link elementor-size-md"
+                        href="http://50.198.11.14/tbqn">
+                        <span class="elementor-button-content-wrapper">
+                          <span class="elementor-button-text">Print questions, verses, and generate quizzes here</span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-94d9a3b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="94d9a3b" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-321a553"
+              data-id="321a553" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-8d4a133 elementor-widget elementor-widget-menu-anchor"
+                  data-id="8d4a133" data-element_type="widget" data-widget_type="menu-anchor.default">
+                  <div class="elementor-widget-container">
+                    <div id="schedule" class="elementor-menu-anchor"></div>
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-f7d5adf elementor-widget elementor-widget-heading"
+                  data-id="f7d5adf" data-element_type="widget" data-widget_type="heading.default">
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">SEASON SCHEDULE</h2>
+                  </div>
+                </div>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-35caf6f elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="35caf6f" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4dfd0c7"
+                      data-id="4dfd0c7" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-882690a elementor-widget elementor-widget-heading"
+                          data-id="882690a" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">First Baptist Church of Elkhart –
+                              October
+                              14th</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4477dff"
+                      data-id="4477dff" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-1383531 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="1383531" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="https://www.google.com/maps/place/First+Baptist+Church/@41.710741,-85.889762,17z/data=!4m5!3m4!1s0x0:0x63bd8d3a61066406!8m2!3d41.7108333!4d-85.8936111">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>
+                                  </span>
+                                  <span class="elementor-button-text">MAP</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-9a235cf elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="9a235cf" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-36528b8"
+                      data-id="36528b8" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-a4994c1 elementor-widget elementor-widget-heading"
+                          data-id="a4994c1" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Riverview Christian Fellowship –
+                              November
+                              5th</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9547160"
+                      data-id="9547160" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-688140b elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="688140b" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="https://www.google.com/maps/place/Riverview+Mennonite+Church/@41.7872553,-85.6604599,15z/data=!4m2!3m1!1s0x0:0x93367c0d87251e99">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">MAP</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-795d7cd elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="795d7cd" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3167646"
+                      data-id="3167646" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-e6c8449 elementor-widget elementor-widget-heading"
+                          data-id="e6c8449" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Riverview Christian Fellowship –
+                              December
+                              10th</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ce02652"
+                      data-id="ce02652" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-936da17 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="936da17" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="https://www.google.com/maps/place/Riverview+Mennonite+Church/@41.7872553,-85.6604599,15z/data=!4m2!3m1!1s0x0:0x93367c0d87251e99">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">MAP</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-5a1d837 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="5a1d837" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d15f88b"
+                      data-id="d15f88b" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-3a0f1b6 elementor-widget elementor-widget-heading"
+                          data-id="3a0f1b6" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Lakeland Christian Academy,
+                              Winona Lake,
+                              IN – January 13th</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-965530f"
+                      data-id="965530f" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-b5e43c3 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="b5e43c3" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md" href="#">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">MAP</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-eee94e4 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="eee94e4" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f8c630b"
+                      data-id="f8c630b" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-c8d495b elementor-widget elementor-widget-heading"
+                          data-id="c8d495b" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Riverview Christian Fellowship–
+                              February
+                              11th-Quiz</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b19f0d0"
+                      data-id="b19f0d0" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-75f1181 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="75f1181" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="https://www.google.com/maps/place/Riverview+Mennonite+Church/@41.7872553,-85.6604599,15z/data=!4m2!3m1!1s0x0:0x93367c0d87251e99">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">MAP</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-647d6a7 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="647d6a7" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b335365"
+                      data-id="b335365" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-6a6f2f7 elementor-widget elementor-widget-heading"
+                          data-id="6a6f2f7" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Elkhart Christian Academy – March
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1d510b8"
+                      data-id="1d510b8" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-5bca425 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="5bca425" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md" href="#">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">MAP</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3ac0dee"
+              data-id="3ac0dee" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-a49f24b elementor-widget elementor-widget-menu-anchor"
+                  data-id="a49f24b" data-element_type="widget" data-widget_type="menu-anchor.default">
+                  <div class="elementor-widget-container">
+                    <div id="resources" class="elementor-menu-anchor"></div>
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-982751a elementor-widget elementor-widget-heading"
+                  data-id="982751a" data-element_type="widget" data-widget_type="heading.default">
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">RESOURCES</h2>
+                  </div>
+                </div>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-c38bec0 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="c38bec0" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bf894a2"
+                      data-id="bf894a2" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-be7e518 elementor-widget elementor-widget-heading"
+                          data-id="be7e518" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Book-Cycle</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f0ee2be"
+                      data-id="f0ee2be" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-abede5c elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="abede5c" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="Doc1.docx">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-3d91fdb elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="3d91fdb" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fbb233e"
+                      data-id="fbb233e" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-51e9eb2 elementor-widget elementor-widget-heading"
+                          data-id="51e9eb2" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">TBQN RuleBook-Cycle</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-615ee59"
+                      data-id="615ee59" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-45da9ae elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="45da9ae" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="pdf1.pdf">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-ddef137 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="ddef137" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e931ed5"
+                      data-id="e931ed5" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-e6f193a elementor-widget elementor-widget-heading"
+                          data-id="e6f193a" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Master Quoter Award Guidelines
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d7cb93b"
+                      data-id="d7cb93b" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-663098a elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="663098a" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="pdf2.pdf">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-b8dd6e1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="b8dd6e1" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a54aa06"
+                      data-id="a54aa06" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-d0a2599 elementor-widget elementor-widget-heading"
+                          data-id="d0a2599" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">TBQN Score Sheet</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3d915a9"
+                      data-id="3d915a9" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-52d8b97 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="52d8b97" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="pdf3.pdf">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-0a33b38 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="0a33b38" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-81efe12"
+                      data-id="81efe12" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-10d6b53 elementor-widget elementor-widget-heading"
+                          data-id="10d6b53" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">TBQN Team Registration Form</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e0fae0e"
+                      data-id="e0fae0e" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-692fd13 elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="692fd13" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md"
+                                href="pdf4.pdf">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section
+                  class="elementor-section elementor-inner-section elementor-element elementor-element-63c6364 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                  data-id="63c6364" data-element_type="section">
+                  <div class="elementor-container elementor-column-gap-default">
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0df576f"
+                      data-id="0df576f" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-2354109 elementor-widget elementor-widget-heading"
+                          data-id="2354109" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Audio Files</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-99250d6"
+                      data-id="99250d6" data-element_type="column">
+                      <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                          class="elementor-element elementor-element-c89a40e elementor-align-justify elementor-widget elementor-widget-button"
+                          data-id="c89a40e" data-element_type="widget" data-widget_type="button.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                              <a class="elementor-button elementor-button-link elementor-size-md">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-icon elementor-align-icon-right">
+                                    <i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i> </span>
+                                  <span class="elementor-button-text">Not Available</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-0978680 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="0978680" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9753280"
+              data-id="9753280" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-521fa35 elementor-widget elementor-widget-menu-anchor"
+                  data-id="521fa35" data-element_type="widget" data-widget_type="menu-anchor.default">
+                  <div class="elementor-widget-container">
+                    <div id="statement" class="elementor-menu-anchor"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-f08c86a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="f08c86a" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b6e4fb3"
+              data-id="b6e4fb3" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-ba07107 elementor-widget elementor-widget-heading"
+                  data-id="ba07107" data-element_type="widget" data-widget_type="heading.default">
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">STATEMENT OF FAITH</h2>
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-f2e455f elementor-widget elementor-widget-text-editor"
+                  data-id="f2e455f" data-element_type="widget" data-widget_type="text-editor.default">
+                  <div class="elementor-widget-container">
+                    <p>The Scriptures, both Old and New Testaments, to be the inspired Word of God, without error in the
+                      original writings, the complete revelation of His will for the salvation of men and the Divine and
+                      final authority for Christian faith and life. In one God, Creator of all things, infinitely
+                      perfect and eternally existing in three persons: Father, Son, and Holy Spirit That Jesus Christ is
+                      true God and true man, having been conceived of the Holy Spirit and born of the Virgin Mary.</p>
+                    <p>He died on the cross, a sacrifice for our sins according to the Scriptures. Further, He arose
+                      bodily from the dead, ascended into heaven, where at the right hand of the Majesty on High, He now
+                      is our High Priest and Advocate. And from whence He will come to judge the quick and the dead.
+                      That the ministry of the Holy Spirit is to glorify the Lord Jesus Christ, and during this age to
+                      convict men, regenerate the believing sinner, indwell, guide, instruct, and empower the believer
+                      for godly living and service. That man was created in the image of God but fell into sin and is
+                      therefore lost and only through regeneration by the Holy Spirit can salvation and spiritual life
+                      be obtained.</p>
+                    <p>That the shed blood of Jesus Christ and His resurrection provide the only ground for
+                      justification and salvation for all who believe, and only such as receive Jesus Christ are born of
+                      the Holy Spirit and thus become children of God. In the bodily resurrection of the dead; of the
+                      believer to everlasting blessedness and joy with the Lord; of the unbeliever to judgment and
+                      everlasting conscious punishment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-613b43d"
+              data-id="613b43d" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-18ffdb1 elementor-widget elementor-widget-image"
+                  data-id="18ffdb1" data-element_type="widget" data-widget_type="image.default">
+                  <div class="elementor-widget-container">
+                    <img decoding="async" width="560" height="440" src="image3.png"
+                      class="attachment-large size-large wp-image-176" sizes="(max-width: 560px) 100vw, 560px" />
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-37bc6c9 elementor-widget elementor-widget-image"
+                  data-id="37bc6c9" data-element_type="widget" data-widget_type="image.default">
+                  <div class="elementor-widget-container">
+                    <img loading="lazy" decoding="async" width="800" height="534" src="image4.jpg"
+                      class="attachment-large size-large wp-image-92" sizes="(max-width: 800px) 100vw, 800px" />
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-fc992be elementor-widget elementor-widget-image"
+                  data-id="fc992be" data-element_type="widget" data-widget_type="image.default">
+                  <div class="elementor-widget-container">
+                    <img loading="lazy" decoding="async" width="800" height="534" src="image5.jpg"
+                      class="attachment-large size-large wp-image-100" sizes="(max-width: 800px) 100vw, 800px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-f0f44e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="f0f44e0" data-element_type="section"
+          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e843e3"
+              data-id="6e843e3" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-9ad8279 elementor-widget elementor-widget-menu-anchor"
+                  data-id="9ad8279" data-element_type="widget" data-widget_type="menu-anchor.default">
+                  <div class="elementor-widget-container">
+                    <div id="contact" class="elementor-menu-anchor"></div>
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-46ab4fb elementor-widget elementor-widget-heading"
+                  data-id="46ab4fb" data-element_type="widget" data-widget_type="heading.default">
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">CONTACT US</h2>
+                  </div>
+                </div>
+                <div class="elementor-element elementor-element-0e43521 elementor-button-align-stretch elementor-widget elementor-widget-form">
+                  <div class="elementor-widget-container elementor-align-center">
+                    <a class="elementor-button elementor-button-link elementor-size-md"
+                      href="https://tbqn.org/">
+                      <span class="elementor-button-content-wrapper">
+                          <span class="elementor-button-text">Click Here!</span>
+                        </span>
+                    </a>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
