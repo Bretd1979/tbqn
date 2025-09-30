@@ -458,7 +458,7 @@
     margin-bottom: 0px;
 }
 
-.elementor-bc-flex-widget .elementor-7 .elementor-element.elementor-element-b335365.elementor-column .elementor-widget-wrap {
+.elementor-bc-flex-widget .elementor-7 .elementor-element.elementor-element-.elementor-column .elementor-widget-wrap {
     align-items: center;
 }
 
@@ -1139,7 +1139,7 @@ body .elementor-7 .elementor-element.elementor-element-0e43521 .elementor-labels
     }
 
     .elementor-7 .elementor-element.elementor-element-b335365 {
-        width: 95%;
+        width: 100%;
     }
 
     .elementor-7 .elementor-element.elementor-element-1d510b8 {
